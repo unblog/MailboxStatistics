@@ -13,7 +13,7 @@ A powershell script to generate MS Exchange mailbox statistics and health report
 Note, it requires that the script is executed from the Exchange management shell ``exshell.psc1``.
 
 ## Usage:
-Ran on exchange host as a task scheduled job at your desired time and action prog *powershell.exe*<br>
+Ran on Exchange host as a task scheduled job at your desired time and action prog *powershell.exe*.
 use ``example`` param:
 ```sh
 -psconsolefile "C:\Program Files\Microsoft\Exchange Server\V15\Bin\exshell.psc1" -file "C:\windows\system32\MailboxStatistics-Report.ps1"
