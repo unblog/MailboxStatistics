@@ -10,7 +10,7 @@ A powershell script to generate MS Exchange mailbox statistics and health report
 [![WordPress rating](https://img.shields.io/wordpress/plugin/r/akismet.svg)](https://github.com/donkey/MailboxStatistics)
 
 ## Installation
-It requires that the script is executed in the Exchange management shell ``exshell.psc1``.
+Note, it requires that the script is executed from the Exchange management shell ``exshell.psc1``.
 
 ## Usage:
 Ran on exchange host as a task scheduled job at your desired time and action prog *powershell.exe*<br>
