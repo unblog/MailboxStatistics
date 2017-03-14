@@ -23,4 +23,3 @@ use ``example`` param:
 ---
 Screenshot:
 ![Sreenshot Mail report](/report-screen.png)
-Format: ![Mail report](url)
