@@ -7,7 +7,6 @@ A powershell script to generate MS Exchange mailbox statistics and health report
 [![GitHub forks](https://img.shields.io/github/forks/donkey/MailboxStatistics.svg)](https://github.com/donkey/MailboxStatistics/network)
 [![GitHub stars](https://img.shields.io/github/stars/donkey/MailboxStatistics.svg)](https://github.com/donkey/MailboxStatistics/stargazers)
 [![GitHub license](https://img.shields.io/badge/license-AGPL-blue.svg)](https://raw.githubusercontent.com/donkey/MailboxStatistics/master/LICENSE)
-[![WordPress rating](https://img.shields.io/wordpress/plugin/r/akismet.svg)](https://github.com/donkey/MailboxStatistics)
 [![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/nimelepbpejjlbmoobocpfnjhihnpked.svg)](https://github.com/donkey/MailboxStatistics)
 
 ## Installation
