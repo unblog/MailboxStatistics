@@ -19,7 +19,7 @@ use ``example`` param:
 -psconsolefile "C:\Program Files\Microsoft\Exchange Server\V15\Bin\exshell.psc1" -file "C:\windows\system32\MailboxStatistics-Report.ps1"
 ```
 ## References
-* [Source](http://think.unblog.ch/winstat-user-status/)
+[Think Tank Blog](http://think.unblog.ch/winstat-user-status/)
 ---
 Screenshot:
 ![Sreenshot Mail report](/report-screen.png)
