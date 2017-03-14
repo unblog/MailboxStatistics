@@ -22,4 +22,5 @@ use ``example`` param:
 * [Source](http://think.unblog.ch/winstat-user-status/)
 ---
 Screenshot:
-<img src="report-screen.png">
+![Sreenshot Mail report](/report-screen.png)
+Format: ![Mail report](url)
