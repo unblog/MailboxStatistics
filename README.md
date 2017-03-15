@@ -1,5 +1,10 @@
 # MailboxStatistics
 A powershell script to generate MS Exchange mailbox statistics and health report will sending per email.
+Report Mailbox stats:
+- Total Item and Size
+- Item count
+- Last logon time
+- Exchange Health Report
 
 [![Travis](https://img.shields.io/travis/rust-lang/rust.svg)](https://github.com/donkey/MailboxStatistics)
 [![GitHub issues](https://img.shields.io/github/issues/donkey/MailboxStatistics.svg)](https://github.com/donkey/MailboxStatistics/issues)
@@ -11,7 +16,7 @@ A powershell script to generate MS Exchange mailbox statistics and health report
 [![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/nimelepbpejjlbmoobocpfnjhihnpked.svg)](https://github.com/donkey/MailboxStatistics)
 
 ## Installation
-Note, it requires that the script is executed from the Exchange management shell ``exshell.psc1``.
+Note it requires that the script is executed from the Exchange management shell ``exshell.psc1``.
 
 ## Usage:
 Ran on Exchange host as a task scheduled job at your desired time and action prog *powershell.exe*.
