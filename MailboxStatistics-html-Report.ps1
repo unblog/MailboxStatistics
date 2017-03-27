@@ -23,7 +23,7 @@ $file = "$path\report.html"
 	}
 ConvertTo-Html -Head $a  -Title "Exchange Mailbox statistics and health status for $exch" -Body "<h1> Computer Name : $exch </h1>" >  "$path\report.html"
 $mailboxdata = (Get-MailboxStatistics -Server $exch | Sort-Object TotalItemSize -Descending | select DisplayName,@{label="TotalItemSize(MB)";expression={$_.TotalItemSize.Value.ToMB()}},ItemCount,LastLogonTime)
-$HealthReport = (Get-HealthReport -Server $exch | Where-Object { $_.alertvalue -ne "Healthy" } | Select PSComputername,Server,State,HealthSet,HealthGroup,AlertValue,LastTransitionTime,MonitorCount,HaImpactingMonitorCount)
+$HealthReport = (Get-HealthReport -Server $exch | Where-Object { $_.alertvalue -ne "Healthy" } | Select Server,State,HealthSet,HealthGroup,AlertValue,LastTransitionTime,MonitorCount,HaImpactingMonitorCount)
 $disk = (Get-WMIObject Win32_Logicaldisk -ComputerName $exch | Select PSComputername,DeviceID,@{Name="SizeGB";Expression={$_.Size/1GB -as [int]}},@{Name="FreeGB";Expression={[math]::Round($_.Freespace/1GB,2)}})
 $date | Out-file $file -append
 $build | Out-file $file -append
