@@ -10,7 +10,7 @@ A powershell script to generate MS Exchange mailbox statistics and health report
 [![Scrutinizer](https://img.shields.io/scrutinizer/g/filp/whoops.svg)](https://github.com/donkey/MailboxStatistics)
 [![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/nimelepbpejjlbmoobocpfnjhihnpked.svg)](https://github.com/donkey/MailboxStatistics)
 
-# Report Mailbox stats:
+## Report Mailbox stats:
 - Total Item and Size
 - Item count
 - Last logon time
