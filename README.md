@@ -26,7 +26,7 @@ use ``example`` param:
 ```sh
 -psconsolefile "C:\Program Files\Microsoft\Exchange Server\V15\Bin\exshell.psc1" -file "C:\windows\system32\MailboxStatistics-Report.ps1"
 ```
-At line 38 "$msg.To.Add("your@email.com") replace the placeholder with a valid recipient.
+At $email="your@email.com" replace the placeholder with a valid recipient.
 
 ## References
 [Think Tank Blog](http://think.unblog.ch/winstat-user-status/)
