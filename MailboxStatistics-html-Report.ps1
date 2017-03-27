@@ -13,6 +13,8 @@ $a = $a + "TD{border-width: 1px;padding: 0px;border-style: solid;border-color: b
 $a = $a + "</style>"
 
 Add-PSSnapin Microsoft.Exchange.Management.Powershell.Admin -erroraction silentlyContinue
+
+$email = "your@email.com"
 $date = Get-Date -format F
 $exch = [system.environment]::MachineName
 $build = (Get-ExchangeServer -Identity $env:exch | ft name,AdminDisplayVersion -HideTableHeaders -AutoSize)
@@ -35,7 +37,7 @@ $att = new-object System.Net.Mail.Attachment($file)
 $msg = new-object System.Net.Mail.MailMessage
 $smtp = new-object System.Net.Mail.SmtpClient($smtpServer)
 $msg.From = "no_reply@$exch"
-$msg.To.Add("support@a-enterprise.ch")
+$msg.To.Add($email)
 $msg.Subject = "Notification report from $exch"
 $msg.Body = "$exch MailboxStatistics generated $date reported to attachment $file"
 $msg.Attachments.Add($att)
