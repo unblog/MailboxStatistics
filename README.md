@@ -32,4 +32,4 @@ At line 26 "$msg.To.Add("your@email.com") replace the placeholder with a valid r
 [Think Tank Blog](http://think.unblog.ch/winstat-user-status/)
 ---
 Screenshot:
-![Sreenshot Mail report](/report-screen.png)
+![Sreenshot Mail report](/mailboxstatistics_scr.png)
