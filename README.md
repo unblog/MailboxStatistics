@@ -1,13 +1,6 @@
 # MailboxStatistics
 A powershell script to generate MS Exchange mailbox statistics and health report will sending per email. The script file _MailboxStatistics-Report.ps1_ deploy plain/text report. Alternatively the file _MailboxStatistics-html-Report.ps1_ to deploy html formatted output.
 
-# Report Mailbox stats:
-- Total Item and Size
-- Item count
-- Last logon time
-- Exchange Health Report
-- Disk Space usage
-
 [![Travis](https://img.shields.io/travis/rust-lang/rust.svg)](https://github.com/donkey/MailboxStatistics)
 [![GitHub issues](https://img.shields.io/github/issues/donkey/MailboxStatistics.svg)](https://github.com/donkey/MailboxStatistics/issues)
 [![Github Releases](https://img.shields.io/github/downloads/atom/atom/latest/total.svg)](https://github.com/donkey/MailboxStatistics)
@@ -16,6 +9,13 @@ A powershell script to generate MS Exchange mailbox statistics and health report
 [![GitHub license](https://img.shields.io/badge/license-AGPL-blue.svg)](https://raw.githubusercontent.com/donkey/MailboxStatistics/master/LICENSE)
 [![Scrutinizer](https://img.shields.io/scrutinizer/g/filp/whoops.svg)](https://github.com/donkey/MailboxStatistics)
 [![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/nimelepbpejjlbmoobocpfnjhihnpked.svg)](https://github.com/donkey/MailboxStatistics)
+
+# Report Mailbox stats:
+- Total Item and Size
+- Item count
+- Last logon time
+- Exchange Health Report
+- Disk Space usage
 
 ## Installation
 Note it requires that the script is executed from the Exchange management shell ``exshell.psc1``.
