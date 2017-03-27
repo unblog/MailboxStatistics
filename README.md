@@ -1,7 +1,7 @@
 # MailboxStatistics
-A powershell script to generate MS Exchange mailbox statistics and health report will sending per email. The script file _MailboxStatistics-Report.ps1_ deploy plain/text report. Alternatively the file _MailboxStatistics-html-Report.ps1_ to deploy html formated output.
-<br>
-Report Mailbox stats:
+A powershell script to generate MS Exchange mailbox statistics and health report will sending per email. The script file _MailboxStatistics-Report.ps1_ deploy plain/text report. Alternatively the file _MailboxStatistics-html-Report.ps1_ to deploy html formatted output.
+
+# Report Mailbox stats:
 - Total Item and Size
 - Item count
 - Last logon time
