@@ -14,8 +14,8 @@ $a = $a + "</style>"
 
 Add-PSSnapin Microsoft.Exchange.Management.Powershell.Admin -erroraction silentlyContinue
 
-$email = "your@email.com"
-$date = Get-Date -format F
+$email = ("your@email.com")
+$date = (Get-Date -format F)
 $exch = [system.environment]::MachineName
 $build = (Get-ExchangeServer -Identity $env:exch | ft name,AdminDisplayVersion -HideTableHeaders -AutoSize)
 $path = [Environment]::GetFolderPath('ApplicationData')
