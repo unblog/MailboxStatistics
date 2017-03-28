@@ -1,6 +1,6 @@
 <#
   MailboxStatistics-Report.ps1 generate mailbox statistics reporting to out-file
-  Version 1.0.2 (27.02.2017) by DonMatteo
+  Version 1.0.3 (27.03.2017) by DonMatteo
   Mail: think@unblog.ch
   Blog: think.unblog.ch
 #>
