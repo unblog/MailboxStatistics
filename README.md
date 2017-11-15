@@ -1,5 +1,5 @@
 # MailboxStatistics
-A powershell script to generate MS Exchange mailbox statistics and health report will sending in email. The script file _MailboxStatistics-Report.ps1_ deploy plain/text report. Alternatively the file _MailboxStatistics-html-Report.ps1_ to deploy html formatted output.
+A powershell script to generate MS Exchange mailbox statistics health report will sending as email. The script _MailboxStatistics-Report.ps1_ generate plain/text report. Alternatively the file _MailboxStatistics-html-Report.ps1_ to deploy html formatted output.
 
 [![Travis](https://img.shields.io/travis/rust-lang/rust.svg)](https://github.com/donkey/MailboxStatistics)
 [![GitHub issues](https://img.shields.io/github/issues/donkey/MailboxStatistics.svg)](https://github.com/donkey/MailboxStatistics/issues)
@@ -26,8 +26,6 @@ use ``example`` param:
 ```sh
 -psconsolefile "C:\Program Files\Microsoft\Exchange Server\V15\Bin\exshell.psc1" -file "C:\windows\system32\MailboxStatistics-Report.ps1"
 ```
-At $email="your@email.com" replace the placeholder with a valid recipient.
-
 ## References
 [Think Tank Blog](http://think.unblog.ch/winstat-user-status/)
 ---
