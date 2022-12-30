@@ -1,8 +1,6 @@
 <#
   MailboxStatistics-html-Report.ps1 generate mailbox statistics reporting to out-file
   Version 1.0.3 (27.03.2017) by DonMatteo
-  Mail: think@unblog.ch
-  Blog: think.unblog.ch
 #>
 
 $a = "<style>"
